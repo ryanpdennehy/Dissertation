@@ -3,7 +3,7 @@
 ################################################################################
 ### RYAN P. DENNEHY - PhD DISSERTATION - REPLICATION CODE
 ### CHAPTER 1 - TOWARD AN AMERICAN SOCIOECONOMIC INDEX FOR USE IN POLITICAL...
-### LAST UPDATED: MAR. 23, 2025
+### LAST UPDATED: MAR. 24, 2025
 ### 001 - CENSUS METADATA MANIPULATION
 ################################################################################
 ################################################################################
@@ -16,20 +16,16 @@ library(pacman)
 pacman::p_load(
   dplyr,
   readr,
-  stringr
+  stringr,
+  tidyr
 )
 
 # ---------------------------------------------------------------------------- #
 # Create Output Directory for Data Headers Evaluation CSV Files                #
 # ---------------------------------------------------------------------------- #
-output_folder <- file.path(
-  "001_Chapter1", "101_MetadataEvaluation"
-)
+output_folder <- file.path("001_Chapter1", "101_MetadataEvaluation")
 if (!dir.exists(output_folder)) {
-  dir.create(
-    output_folder,
-    recursive = TRUE
-  )
+  dir.create(output_folder, recursive = TRUE)
 }
 
 # ---------------------------------------------------------------------------- #
@@ -52,14 +48,11 @@ file_paths <- lapply(
 # ---------------------------------------------------------------------------- #
 # Read and Combine Data Headers from the Data Files                            #
 # ---------------------------------------------------------------------------- #
+# For each file, read the first two rows (ignoring the first two columns),
+# transpose them so that the first row becomes the variable code and the second row becomes the description.
 read_data_header <- function(file_path) {
   subfolder <- basename(dirname(file_path))
-  year      <- as.integer(
-    str_match(
-      basename(file_path),
-      "ACSDP5Y(\\d{4})"
-    )[[2]]
-  )
+  year      <- as.integer(str_match(basename(file_path), "ACSDP5Y(\\d{4})")[[2]])
   
   data <- read_csv(
     file_path,
@@ -68,13 +61,15 @@ read_data_header <- function(file_path) {
     show_col_types = FALSE
   )
   
-  data       <- data[ , -(1:2)]
-  transposed <- as_tibble(
-    t(data),
-    .name_repair = "minimal"
-  )
+  # Drop the first two columns
+  data <- data[ , -(1:2)]
+  
+  # Transpose so that each column becomes a row
+  transposed <- as_tibble(t(data), .name_repair = "minimal")
+  # Rename the first two columns as "name" and "info"
   names(transposed)[1:2] <- c("name", "info")
   
+  # Append subfolder and year information
   transposed <- transposed %>% mutate(
     subfolder = subfolder,
     year      = year
@@ -82,189 +77,112 @@ read_data_header <- function(file_path) {
   return(transposed)
 }
 
-headers_all <- lapply(
-  file_paths,
-  read_data_header
-) %>% bind_rows()
+headers_all <- lapply(file_paths, read_data_header) %>% bind_rows()
 
+# Save the raw combined headers (for reference)
 write_csv(
   headers_all,
   file.path(output_folder, "000_full_data_headers.csv")
 )
 
 # ---------------------------------------------------------------------------- #
-# Analyze Consistency of Data Headers (Name/Info Pairings)                     #
+# Build the Master Data Frame for Variable Evolution                          #
 # ---------------------------------------------------------------------------- #
-headers_summary <- headers_all %>%
-  group_by(subfolder, name) %>%
-  summarise(
-    info        = first(info),
-    info_values = paste(unique(info), collapse = " | "),
-    years       = paste(sort(unique(year)), collapse = ", "),
-    count_years = n_distinct(year),
-    .groups     = "drop"
-  ) %>%
-  mutate(
-    consistency = if_else(
-      grepl("\\|", info_values),
-      "inconsistent",
-      "consistent"
-    ),
-    present = years,
-    absent  = sapply(
-      strsplit(years, ", "),
-      function(x) {
-        all_years <- sort(unique(headers_all$year))
-        paste(
-          setdiff(all_years, as.integer(x)),
-          collapse = ", "
-        )
+# Rename "info" to "description" and select needed columns.
+df <- headers_all %>%
+  select(subfolder, year, name, info) %>%
+  rename(description = info)
+
+# Remove duplicate rows so that each subfolder/description/year appears only once.
+df_unique <- df %>% distinct(subfolder, description, year, .keep_all = TRUE)
+
+# Pivot wider so that each row is a unique subfolder/description and for each year (2010-2023)
+# we have a column "var_YYYY" containing the variable code (name).
+years_range <- 2010:2023
+wide <- df_unique %>%
+  select(subfolder, description, year, name) %>%
+  pivot_wider(
+    names_from = year,
+    values_from = name,
+    names_prefix = "var_"
+  )
+
+# ---------------------------------------------------------------------------- #
+# Compute Match Columns for Each Year                                          #
+# ---------------------------------------------------------------------------- #
+# For each year, create a match column.
+# For each row (i.e. description):
+#   - If the description appears for the first time in that row, mark match as 99.
+#   - Otherwise, if the previous calendar year's value exists, mark 1 if unchanged, 0 if changed.
+#   - If the previous year is missing, mark as NA.
+var_cols <- paste0("var_", years_range)
+for (yr in years_range) {
+  var_current <- paste0("var_", yr)
+  match_col   <- paste0("match_", yr)
+  
+  wide[[match_col]] <- apply(wide, 1, function(row) {
+    current <- row[[var_current]]
+    if (is.na(current)) {
+      return(NA)
+    } else {
+      row_vars <- sapply(var_cols, function(col) row[[col]])
+      available_years <- years_range[!is.na(row_vars)]
+      first_yr <- min(available_years)
+      if (yr == first_yr) {
+        return(99)
+      } else {
+        prev_year <- yr - 1
+        prev_val  <- row[[paste0("var_", prev_year)]]
+        if (is.na(prev_val)) {
+          return(NA)
+        } else {
+          return(ifelse(current == prev_val, 1, 0))
+        }
       }
-    )
-  ) %>%
-  select(
-    subfolder,
-    name,
-    info,
-    present,
-    absent,
-    info_values,
-    count_years,
-    consistency
-  )
+    }
+  })
+}
 
 # ---------------------------------------------------------------------------- #
-# Identify Variables Present in All Years vs. New/Discontinued                 #
+# Compute Summary Columns: first_year, last_year, present, absent                #
 # ---------------------------------------------------------------------------- #
-all_years <- sort(unique(headers_all$year))
-min_year  <- min(all_years)
-max_year  <- max(all_years)
-
-headers_presence <- headers_summary %>%
+wide <- wide %>%
   mutate(
-    first_year = sapply(
-      strsplit(present, ", "),
-      function(x) min(as.integer(x))
-    ),
-    last_year = sapply(
-      strsplit(present, ", "),
-      function(x) max(as.integer(x))
-    ),
-    new_flag = if_else(
-      first_year > min_year,
-      "new",
-      NA_character_
-    ),
-    discontinued_flag = if_else(
-      last_year < max_year,
-      "discontinued",
-      NA_character_
-    ),
-    status = case_when(
-      !is.na(new_flag) & !is.na(discontinued_flag) ~ "new and discontinued",
-      !is.na(new_flag)                             ~ "new",
-      !is.na(discontinued_flag)                    ~ "discontinued",
-      TRUE                                         ~ "present in all years"
-    )
-  ) %>%
-  select(
-    subfolder,
-    name,
-    info,
-    present,
-    absent,
-    info_values,
-    count_years,
-    consistency,
-    first_year,
-    last_year,
-    new_flag,
-    discontinued_flag,
-    status
+    first_year = apply(select(., all_of(var_cols)), 1, function(x) {
+      yrs <- years_range[!is.na(x)]
+      if (length(yrs) == 0) NA else min(yrs)
+    }),
+    last_year = apply(select(., all_of(var_cols)), 1, function(x) {
+      yrs <- years_range[!is.na(x)]
+      if (length(yrs) == 0) NA else max(yrs)
+    }),
+    present = apply(select(., all_of(var_cols)), 1, function(x) {
+      yrs <- years_range[!is.na(x)]
+      if (length(yrs) == 0) NA else paste(yrs, collapse = ", ")
+    }),
+    absent = apply(select(., all_of(var_cols)), 1, function(x) {
+      yrs <- years_range[!is.na(x)]
+      missing <- setdiff(years_range, yrs)
+      if (length(missing) == 0) NA else paste(missing, collapse = ", ")
+    })
   )
 
 # ---------------------------------------------------------------------------- #
-# Create Granular Subsets for Final Output                                     #
+# Reorder Final Columns                                                        #
 # ---------------------------------------------------------------------------- #
-consistent_headers <- headers_presence %>%
-  filter(consistency == "consistent") %>%
-  select(-present, -absent)
-
-inconsistent_headers <- headers_presence %>%
-  filter(consistency == "inconsistent")
-
-present_all_years_headers <- headers_presence %>%
-  filter(status == "present in all years")
-
-new_or_discontinued_headers <- headers_presence %>%
-  filter(status != "present in all years")
-
-# ---------------------------------------------------------------------------- #
-# Final Cleanup for CSV Outputs                                                #
-# ---------------------------------------------------------------------------- #
-headers_all_final <- headers_all %>%
-  filter(!is.na(name))
-
-headers_summary_final <- headers_summary %>%
-  filter(!is.na(name)) %>%
-  select(-info_values)
-
-headers_presence_final <- headers_presence %>%
-  filter(!is.na(name)) %>%
-  select(-info_values)
-
-consistent_headers_final <- consistent_headers %>%
-  filter(!is.na(name)) %>%
-  select(-info_values)
-
-inconsistent_headers_final <- inconsistent_headers %>%
-  filter(!is.na(name)) %>%
-  select(-info_values)
-
-present_all_years_headers_final <- present_all_years_headers %>%
-  filter(!is.na(name)) %>%
-  select(-info_values)
-
-new_or_discontinued_headers_final <- new_or_discontinued_headers %>%
-  filter(!is.na(name)) %>%
-  select(-info_values)
+# Order the final data frame with: subfolder, description,
+# then alternating var_YEAR and match_YEAR for each year, then first_year, last_year, present, absent.
+year_cols <- unlist(lapply(years_range, function(yr) c(paste0("var_", yr), paste0("match_", yr))))
+final_df <- wide %>%
+  filter(!is.na(description)) %>%
+  select(subfolder, description, all_of(year_cols), first_year, last_year, present, absent)
 
 # ---------------------------------------------------------------------------- #
 # Save Final Evaluation Results to CSV Files with Numeric Prefixes             #
 # ---------------------------------------------------------------------------- #
 write_csv(
-  headers_all_final,
-  file.path(output_folder, "000_full_data_headers.csv")
-)
-
-write_csv(
-  headers_summary_final,
-  file.path(output_folder, "001_headers_summary.csv")
-)
-
-write_csv(
-  headers_presence_final,
-  file.path(output_folder, "002_headers_evaluation.csv")
-)
-
-write_csv(
-  consistent_headers_final,
-  file.path(output_folder, "003_consistent_headers.csv")
-)
-
-write_csv(
-  inconsistent_headers_final,
-  file.path(output_folder, "004_inconsistent_headers.csv")
-)
-
-write_csv(
-  present_all_years_headers_final,
-  file.path(output_folder, "005_present_all_years_headers.csv")
-)
-
-write_csv(
-  new_or_discontinued_headers_final,
-  file.path(output_folder, "006_new_or_discontinued_headers.csv")
+  final_df,
+  file.path(output_folder, "001_variable_name_evaluation.csv")
 )
 
 ################################################################################

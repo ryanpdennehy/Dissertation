@@ -595,6 +595,7 @@ DP02_0149E,Estimate!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP
 DP02_0149M,Estimate Margin of Error!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP02,2010
 DP02_0149PE,Percent!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP02,2010
 DP02_0149PM,Percent Margin of Error!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP02,2010
+NA,NA,DP02,2010
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2011
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2011
 DP02_0001PE,Percent!!HOUSEHOLDS BY TYPE!!Total households,DP02,2011
@@ -1191,6 +1192,7 @@ DP02_0149E,Estimate!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP
 DP02_0149M,Margin of Error!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP02,2011
 DP02_0149PE,Percent!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP02,2011
 DP02_0149PM,Percent Margin of Error!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP02,2011
+NA,NA,DP02,2011
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2012
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2012
 DP02_0001PE,Percent!!HOUSEHOLDS BY TYPE!!Total households,DP02,2012
@@ -1787,6 +1789,7 @@ DP02_0149E,Estimate!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP
 DP02_0149M,Margin of Error!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP02,2012
 DP02_0149PE,Percent!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP02,2012
 DP02_0149PM,Percent Margin of Error!!ANCESTRY!!West Indian (excluding Hispanic origin groups),DP02,2012
+NA,NA,DP02,2012
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2013
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2013
 DP02_0001PE,Percent!!HOUSEHOLDS BY TYPE!!Total households,DP02,2013
@@ -2395,6 +2398,7 @@ DP02_0152E,Estimate!!COMPUTERS AND INTERNET USE!!Total Households!!With a broadb
 DP02_0152M,Margin of Error!!COMPUTERS AND INTERNET USE!!Total Households!!With a broadband Internet subscription,DP02,2013
 DP02_0152PE,Percent!!COMPUTERS AND INTERNET USE!!Total Households!!With a broadband Internet subscription,DP02,2013
 DP02_0152PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total Households!!With a broadband Internet subscription,DP02,2013
+NA,NA,DP02,2013
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2014
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2014
 DP02_0001PE,Percent!!HOUSEHOLDS BY TYPE!!Total households,DP02,2014
@@ -3003,6 +3007,7 @@ DP02_0152E,Estimate!!COMPUTERS AND INTERNET USE!!Total Households!!With a broadb
 DP02_0152M,Margin of Error!!COMPUTERS AND INTERNET USE!!Total Households!!With a broadband Internet subscription,DP02,2014
 DP02_0152PE,Percent!!COMPUTERS AND INTERNET USE!!Total Households!!With a broadband Internet subscription,DP02,2014
 DP02_0152PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total Households!!With a broadband Internet subscription,DP02,2014
+NA,NA,DP02,2014
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2015
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2015
 DP02_0001PE,Percent!!HOUSEHOLDS BY TYPE!!Total households,DP02,2015
@@ -3611,6 +3616,7 @@ DP02_0152E,Estimate!!COMPUTERS AND INTERNET USE!!Total households!!With a broadb
 DP02_0152M,Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2015
 DP02_0152PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2015
 DP02_0152PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2015
+NA,NA,DP02,2015
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2016
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2016
 DP02_0001PE,Percent!!HOUSEHOLDS BY TYPE!!Total households,DP02,2016
@@ -4219,6 +4225,7 @@ DP02_0152E,Estimate!!COMPUTERS AND INTERNET USE!!Total households!!With a broadb
 DP02_0152M,Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2016
 DP02_0152PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2016
 DP02_0152PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2016
+NA,NA,DP02,2016
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2017
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2017
 DP02_0002E,Estimate!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families),DP02,2017
@@ -4827,6 +4834,7 @@ DP02_0151PE,Percent Estimate!!COMPUTERS AND INTERNET USE!!Total households!!With
 DP02_0151PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a computer,DP02,2017
 DP02_0152PE,Percent Estimate!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2017
 DP02_0152PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2017
+NA,NA,DP02,2017
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2018
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2018
 DP02_0002E,Estimate!!HOUSEHOLDS BY TYPE!!Total households!!Family households (families),DP02,2018
@@ -5435,6 +5443,7 @@ DP02_0151PE,Percent Estimate!!COMPUTERS AND INTERNET USE!!Total households!!With
 DP02_0151PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a computer,DP02,2018
 DP02_0152PE,Percent Estimate!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2018
 DP02_0152PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2018
+NA,NA,DP02,2018
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2019
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2019
 DP02_0002E,Estimate!!HOUSEHOLDS BY TYPE!!Total households!!Married-couple family,DP02,2019
@@ -6047,6 +6056,7 @@ DP02_0152PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a comput
 DP02_0152PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a computer,DP02,2019
 DP02_0153PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2019
 DP02_0153PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2019
+NA,NA,DP02,2019
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2020
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2020
 DP02_0002E,Estimate!!HOUSEHOLDS BY TYPE!!Total households!!Married-couple household,DP02,2020
@@ -6663,6 +6673,7 @@ DP02_0153PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a comput
 DP02_0153PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a computer,DP02,2020
 DP02_0154PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2020
 DP02_0154PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2020
+NA,NA,DP02,2020
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2021
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2021
 DP02_0002E,Estimate!!HOUSEHOLDS BY TYPE!!Total households!!Married-couple household,DP02,2021
@@ -7279,6 +7290,7 @@ DP02_0153PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a comput
 DP02_0153PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a computer,DP02,2021
 DP02_0154PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2021
 DP02_0154PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2021
+NA,NA,DP02,2021
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2022
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2022
 DP02_0002E,Estimate!!HOUSEHOLDS BY TYPE!!Total households!!Married-couple household,DP02,2022
@@ -7895,6 +7907,7 @@ DP02_0153PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a comput
 DP02_0153PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a computer,DP02,2022
 DP02_0154PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2022
 DP02_0154PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2022
+NA,NA,DP02,2022
 DP02_0001E,Estimate!!HOUSEHOLDS BY TYPE!!Total households,DP02,2023
 DP02_0001M,Margin of Error!!HOUSEHOLDS BY TYPE!!Total households,DP02,2023
 DP02_0002E,Estimate!!HOUSEHOLDS BY TYPE!!Total households!!Married-couple household,DP02,2023
@@ -8511,6 +8524,7 @@ DP02_0153PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a comput
 DP02_0153PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a computer,DP02,2023
 DP02_0154PE,Percent!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2023
 DP02_0154PM,Percent Margin of Error!!COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,DP02,2023
+NA,NA,DP02,2023
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2010
 DP03_0001M,Estimate Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2010
 DP03_0001PE,Percent!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2010
@@ -9059,6 +9073,7 @@ DP03_0137E,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0137M,Estimate Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2010
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2010
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2010
+NA,NA,DP03,2010
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2011
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2011
 DP03_0001PE,Percent!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2011
@@ -9607,6 +9622,7 @@ DP03_0137E,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0137M,Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2011
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2011
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2011
+NA,NA,DP03,2011
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2012
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2012
 DP03_0001PE,Percent!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2012
@@ -10155,6 +10171,7 @@ DP03_0137E,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0137M,Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2012
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2012
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2012
+NA,NA,DP03,2012
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2013
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2013
 DP03_0001PE,Percent!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2013
@@ -10703,6 +10720,7 @@ DP03_0137E,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0137M,Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!65 years and over!!Unrelated individuals 15 years and over,DP03,2013
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!65 years and over!!Unrelated individuals 15 years and over,DP03,2013
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!65 years and over!!Unrelated individuals 15 years and over,DP03,2013
+NA,NA,DP03,2013
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2014
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2014
 DP03_0001PE,Percent!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2014
@@ -11251,6 +11269,7 @@ DP03_0137E,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0137M,Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!65 years and over!!Unrelated individuals 15 years and over,DP03,2014
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!65 years and over!!Unrelated individuals 15 years and over,DP03,2014
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!65 years and over!!Unrelated individuals 15 years and over,DP03,2014
+NA,NA,DP03,2014
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2015
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2015
 DP03_0001PE,Percent!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2015
@@ -11799,6 +11818,7 @@ DP03_0137E,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0137M,Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!65 years and over!!Unrelated individuals 15 years and over,DP03,2015
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!65 years and over!!Unrelated individuals 15 years and over,DP03,2015
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!65 years and over!!Unrelated individuals 15 years and over,DP03,2015
+NA,NA,DP03,2015
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2016
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2016
 DP03_0001PE,Percent!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2016
@@ -12347,6 +12367,7 @@ DP03_0137E,Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0137M,Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2016
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2016
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2016
+NA,NA,DP03,2016
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2017
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2017
 DP03_0002E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,DP03,2017
@@ -12895,6 +12916,7 @@ DP03_0136PE,Percent Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN 
 DP03_0136PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!People in families,DP03,2017
 DP03_0137PE,Percent Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2017
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2017
+NA,NA,DP03,2017
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2018
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2018
 DP03_0002E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,DP03,2018
@@ -13443,6 +13465,7 @@ DP03_0136PE,Percent Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN 
 DP03_0136PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!People in families,DP03,2018
 DP03_0137PE,Percent Estimate!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2018
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!Unrelated individuals 15 years and over,DP03,2018
+NA,NA,DP03,2018
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2019
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2019
 DP03_0002E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,DP03,2019
@@ -13991,6 +14014,7 @@ DP03_0136PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0136PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!People in families,DP03,2019
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,DP03,2019
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,DP03,2019
+NA,NA,DP03,2019
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2020
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2020
 DP03_0002E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,DP03,2020
@@ -14539,6 +14563,7 @@ DP03_0136PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0136PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!People in families,DP03,2020
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,DP03,2020
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,DP03,2020
+NA,NA,DP03,2020
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2021
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2021
 DP03_0002E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,DP03,2021
@@ -15087,6 +15112,7 @@ DP03_0136PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0136PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!People in families,DP03,2021
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,DP03,2021
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,DP03,2021
+NA,NA,DP03,2021
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2022
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2022
 DP03_0002E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,DP03,2022
@@ -15635,6 +15661,7 @@ DP03_0136PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0136PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!People in families,DP03,2022
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,DP03,2022
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,DP03,2022
+NA,NA,DP03,2022
 DP03_0001E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2023
 DP03_0001M,Margin of Error!!EMPLOYMENT STATUS!!Population 16 years and over,DP03,2023
 DP03_0002E,Estimate!!EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,DP03,2023
@@ -16183,6 +16210,7 @@ DP03_0136PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 
 DP03_0136PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!People in families,DP03,2023
 DP03_0137PE,Percent!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,DP03,2023
 DP03_0137PM,Percent Margin of Error!!PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,DP03,2023
+NA,NA,DP03,2023
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2010
 DP04_0001M,Estimate Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2010
 DP04_0001PE,Percent!!HOUSING OCCUPANCY!!Total housing units,DP04,2010
@@ -16747,6 +16775,7 @@ DP04_0141E,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not
 DP04_0141M,Estimate Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2010
 DP04_0141PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2010
 DP04_0141PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2010
+NA,NA,DP04,2010
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2011
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2011
 DP04_0001PE,Percent!!HOUSING OCCUPANCY!!Total housing units,DP04,2011
@@ -17311,6 +17340,7 @@ DP04_0141E,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not
 DP04_0141M,Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2011
 DP04_0141PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2011
 DP04_0141PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2011
+NA,NA,DP04,2011
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2012
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2012
 DP04_0001PE,Percent!!HOUSING OCCUPANCY!!Total housing units,DP04,2012
@@ -17875,6 +17905,7 @@ DP04_0141E,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not
 DP04_0141M,Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2012
 DP04_0141PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2012
 DP04_0141PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2012
+NA,NA,DP04,2012
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2013
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2013
 DP04_0001PE,Percent!!HOUSING OCCUPANCY!!Total housing units,DP04,2013
@@ -18439,6 +18470,7 @@ DP04_0141E,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not
 DP04_0141M,Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2013
 DP04_0141PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2013
 DP04_0141PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2013
+NA,NA,DP04,2013
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2014
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2014
 DP04_0001PE,Percent!!HOUSING OCCUPANCY!!Total housing units,DP04,2014
@@ -19003,6 +19035,7 @@ DP04_0141E,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not
 DP04_0141M,Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2014
 DP04_0141PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2014
 DP04_0141PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2014
+NA,NA,DP04,2014
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2015
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2015
 DP04_0001PE,Percent!!HOUSING OCCUPANCY!!Total housing units,DP04,2015
@@ -19575,6 +19608,7 @@ DP04_0143E,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not
 DP04_0143M,Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2015
 DP04_0143PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2015
 DP04_0143PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2015
+NA,NA,DP04,2015
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2016
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2016
 DP04_0001PE,Percent!!HOUSING OCCUPANCY!!Total housing units,DP04,2016
@@ -20147,6 +20181,7 @@ DP04_0143E,Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not
 DP04_0143M,Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2016
 DP04_0143PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2016
 DP04_0143PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Not computed,DP04,2016
+NA,NA,DP04,2016
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2017
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2017
 DP04_0002E,Estimate!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units,DP04,2017
@@ -20719,6 +20754,7 @@ DP04_0142PE,Percent Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GR
 DP04_0142PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!35.0 percent or more,DP04,2017
 DP04_0143PE,Percent Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2017
 DP04_0143PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2017
+NA,NA,DP04,2017
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2018
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2018
 DP04_0002E,Estimate!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units,DP04,2018
@@ -21291,6 +21327,7 @@ DP04_0142PE,Percent Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GR
 DP04_0142PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!35.0 percent or more,DP04,2018
 DP04_0143PE,Percent Estimate!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2018
 DP04_0143PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2018
+NA,NA,DP04,2018
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2019
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2019
 DP04_0002E,Estimate!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units,DP04,2019
@@ -21863,6 +21900,7 @@ DP04_0142PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occ
 DP04_0142PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!35.0 percent or more,DP04,2019
 DP04_0143PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2019
 DP04_0143PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2019
+NA,NA,DP04,2019
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2020
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2020
 DP04_0002E,Estimate!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units,DP04,2020
@@ -22435,6 +22473,7 @@ DP04_0142PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occ
 DP04_0142PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!35.0 percent or more,DP04,2020
 DP04_0143PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2020
 DP04_0143PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2020
+NA,NA,DP04,2020
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2021
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2021
 DP04_0002E,Estimate!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units,DP04,2021
@@ -23007,6 +23046,7 @@ DP04_0142PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occ
 DP04_0142PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!35.0 percent or more,DP04,2021
 DP04_0143PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2021
 DP04_0143PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2021
+NA,NA,DP04,2021
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2022
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2022
 DP04_0002E,Estimate!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units,DP04,2022
@@ -23579,6 +23619,7 @@ DP04_0142PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occ
 DP04_0142PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!35.0 percent or more,DP04,2022
 DP04_0143PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2022
 DP04_0143PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2022
+NA,NA,DP04,2022
 DP04_0001E,Estimate!!HOUSING OCCUPANCY!!Total housing units,DP04,2023
 DP04_0001M,Margin of Error!!HOUSING OCCUPANCY!!Total housing units,DP04,2023
 DP04_0002E,Estimate!!HOUSING OCCUPANCY!!Total housing units!!Occupied housing units,DP04,2023
@@ -24151,6 +24192,7 @@ DP04_0142PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occ
 DP04_0142PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!35.0 percent or more,DP04,2023
 DP04_0143PE,Percent!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2023
 DP04_0143PM,Percent Margin of Error!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,DP04,2023
+NA,NA,DP04,2023
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2010
 DP05_0001M,Estimate Margin of Error!!SEX AND AGE!!Total population,DP05,2010
 DP05_0001PE,Percent!!SEX AND AGE!!Total population,DP05,2010
@@ -24475,6 +24517,7 @@ DP05_0081E,Estimate!!Total housing units,DP05,2010
 DP05_0081M,Estimate Margin of Error!!Total housing units,DP05,2010
 DP05_0081PE,Percent!!Total housing units,DP05,2010
 DP05_0081PM,Percent Margin of Error!!Total housing units,DP05,2010
+NA,NA,DP05,2010
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2011
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2011
 DP05_0001PE,Percent!!SEX AND AGE!!Total population,DP05,2011
@@ -24799,6 +24842,7 @@ DP05_0081E,Estimate!!Total housing units,DP05,2011
 DP05_0081M,Margin of Error!!Total housing units,DP05,2011
 DP05_0081PE,Percent!!Total housing units,DP05,2011
 DP05_0081PM,Percent Margin of Error!!Total housing units,DP05,2011
+NA,NA,DP05,2011
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2012
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2012
 DP05_0001PE,Percent!!SEX AND AGE!!Total population,DP05,2012
@@ -25123,6 +25167,7 @@ DP05_0081E,Estimate!!Total housing units,DP05,2012
 DP05_0081M,Margin of Error!!Total housing units,DP05,2012
 DP05_0081PE,Percent!!Total housing units,DP05,2012
 DP05_0081PM,Percent Margin of Error!!Total housing units,DP05,2012
+NA,NA,DP05,2012
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2013
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2013
 DP05_0001PE,Percent!!SEX AND AGE!!Total population,DP05,2013
@@ -25447,6 +25492,7 @@ DP05_0081E,Estimate!!Total housing units,DP05,2013
 DP05_0081M,Margin of Error!!Total housing units,DP05,2013
 DP05_0081PE,Percent!!Total housing units,DP05,2013
 DP05_0081PM,Percent Margin of Error!!Total housing units,DP05,2013
+NA,NA,DP05,2013
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2014
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2014
 DP05_0001PE,Percent!!SEX AND AGE!!Total population,DP05,2014
@@ -25771,6 +25817,7 @@ DP05_0081E,Estimate!!Total housing units,DP05,2014
 DP05_0081M,Margin of Error!!Total housing units,DP05,2014
 DP05_0081PE,Percent!!Total housing units,DP05,2014
 DP05_0081PM,Percent Margin of Error!!Total housing units,DP05,2014
+NA,NA,DP05,2014
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2015
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2015
 DP05_0001PE,Percent!!SEX AND AGE!!Total population,DP05,2015
@@ -26107,6 +26154,7 @@ DP05_0084E,"Estimate!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over popul
 DP05_0084M,"Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2015
 DP05_0084PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2015
 DP05_0084PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2015
+NA,NA,DP05,2015
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2016
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2016
 DP05_0001PE,Percent!!SEX AND AGE!!Total population,DP05,2016
@@ -26443,6 +26491,7 @@ DP05_0084E,"Estimate!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over popul
 DP05_0084M,"Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2016
 DP05_0084PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2016
 DP05_0084PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2016
+NA,NA,DP05,2016
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2017
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2017
 DP05_0002E,Estimate!!SEX AND AGE!!Total population!!Male,DP05,2017
@@ -26799,6 +26848,7 @@ DP05_0088PE,"Percent Estimate!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and o
 DP05_0088PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Male",DP05,2017
 DP05_0089PE,"Percent Estimate!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2017
 DP05_0089PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2017
+NA,NA,DP05,2017
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2018
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2018
 DP05_0002E,Estimate!!SEX AND AGE!!Total population!!Male,DP05,2018
@@ -27155,6 +27205,7 @@ DP05_0088PE,"Percent Estimate!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and o
 DP05_0088PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Male",DP05,2018
 DP05_0089PE,"Percent Estimate!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2018
 DP05_0089PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2018
+NA,NA,DP05,2018
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2019
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2019
 DP05_0002E,Estimate!!SEX AND AGE!!Total population!!Male,DP05,2019
@@ -27511,6 +27562,7 @@ DP05_0088PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over popul
 DP05_0088PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Male",DP05,2019
 DP05_0089PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2019
 DP05_0089PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2019
+NA,NA,DP05,2019
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2020
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2020
 DP05_0002E,Estimate!!SEX AND AGE!!Total population!!Male,DP05,2020
@@ -27867,6 +27919,7 @@ DP05_0088PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over popul
 DP05_0088PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Male",DP05,2020
 DP05_0089PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2020
 DP05_0089PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2020
+NA,NA,DP05,2020
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2021
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2021
 DP05_0002E,Estimate!!SEX AND AGE!!Total population!!Male,DP05,2021
@@ -28223,6 +28276,7 @@ DP05_0088PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over popul
 DP05_0088PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Male",DP05,2021
 DP05_0089PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2021
 DP05_0089PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2021
+NA,NA,DP05,2021
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2022
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2022
 DP05_0002E,Estimate!!SEX AND AGE!!Total population!!Male,DP05,2022
@@ -28587,6 +28641,7 @@ DP05_0090PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over popul
 DP05_0090PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Male",DP05,2022
 DP05_0091PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2022
 DP05_0091PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2022
+NA,NA,DP05,2022
 DP05_0001E,Estimate!!SEX AND AGE!!Total population,DP05,2023
 DP05_0001M,Margin of Error!!SEX AND AGE!!Total population,DP05,2023
 DP05_0002E,Estimate!!SEX AND AGE!!Total population!!Male,DP05,2023
@@ -28963,3 +29018,4 @@ DP05_0093PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over popul
 DP05_0093PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Male",DP05,2023
 DP05_0094PE,"Percent!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2023
 DP05_0094PM,"Percent Margin of Error!!CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",DP05,2023
+NA,NA,DP05,2023
