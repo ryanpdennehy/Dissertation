@@ -35,7 +35,7 @@ if (!dir.exists(output_folder)) {
 # ---------------------------------------------------------------------------- #
 # Define File Paths and List Files for Data Files                              #
 # ---------------------------------------------------------------------------- #
-base_dir   <- "000_Data/001_CensusData"
+base_dir   <- "000_Data/001_CensusDataTracts"
 subfolders <- c("DP02", "DP03", "DP04", "DP05")
 
 file_paths <- lapply(
