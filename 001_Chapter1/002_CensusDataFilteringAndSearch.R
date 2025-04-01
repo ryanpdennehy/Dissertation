@@ -45,7 +45,7 @@ df <- read_csv(input_file)
 # ---------------------------------------------------------------------------- #
 df_subset <- df %>%
   filter(
-    str_starts(description, "Percent!!")                  | 
+    str_starts(description, "Percent!!")                    | 
       str_starts(description, "Percent Margin of Error!!")  |
       str_starts(description, "Estimate!!")                 | 
       str_starts(description, "Estimate Margin of Error!!")
