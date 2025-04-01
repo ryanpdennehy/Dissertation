@@ -3,8 +3,15 @@
 ################################################################################
 ### RYAN P. DENNEHY - PhD DISSERTATION - REPLICATION CODE
 ### CHAPTER 1 - TOWARD AN AMERICAN SOCIOECONOMIC INDEX FOR USE IN POLITICAL...
-### LAST UPDATED: MAR. 24, 2025
+### LAST UPDATED: APR. 1, 2025
 ### 001 - CENSUS METADATA MANIPULATION
+### ======================================================================== ###
+### Purpose: Read metadata from all raw Census tract files, extract and 
+###          combine header rows, and build a master data frame tracking the 
+###          yearly evolution of variable codes and descriptions across ACS 
+###          releases (2010–2023). Output includes full raw headers and a 
+###          cleaned evaluation table with presence, change, and continuity 
+###          information for each variable by year.
 ################################################################################
 ################################################################################
 ################################################################################
@@ -49,7 +56,8 @@ file_paths <- lapply(
 # Read and Combine Data Headers from the Data Files                            #
 # ---------------------------------------------------------------------------- #
 # For each file, read the first two rows (ignoring the first two columns),
-# transpose them so that the first row becomes the variable code and the second row becomes the description.
+# transpose them so that the first row becomes the variable code and the second 
+# row becomes the description.
 read_data_header <- function(file_path) {
   subfolder <- basename(dirname(file_path))
   year      <- as.integer(str_match(basename(file_path), "ACSDP5Y(\\d{4})")[[2]])
@@ -86,17 +94,19 @@ write_csv(
 )
 
 # ---------------------------------------------------------------------------- #
-# Build the Master Data Frame for Variable Evolution                          #
+# Build the Master Data Frame for Variable Evolution                           #
 # ---------------------------------------------------------------------------- #
 # Rename "info" to "description" and select needed columns.
 df <- headers_all %>%
   select(subfolder, year, name, info) %>%
   rename(description = info)
 
-# Remove duplicate rows so that each subfolder/description/year appears only once.
+# Remove duplicate rows so that each subfolder/description/year appears only 
+# once
 df_unique <- df %>% distinct(subfolder, description, year, .keep_all = TRUE)
 
-# Pivot wider so that each row is a unique subfolder/description and for each year (2010-2023)
+# Pivot wider so that each row is a unique subfolder/description and for each 
+# year (2010-2023)
 # we have a column "var_YYYY" containing the variable code (name).
 years_range <- 2010:2023
 wide <- df_unique %>%
@@ -112,8 +122,10 @@ wide <- df_unique %>%
 # ---------------------------------------------------------------------------- #
 # For each year, create a match column.
 # For each row (i.e. description):
-#   - If the description appears for the first time in that row, mark match as 99.
-#   - Otherwise, if the previous calendar year's value exists, mark 1 if unchanged, 0 if changed.
+#   - If the description appears for the first time in that row, mark match as 
+#     99.
+#   - Otherwise, if the previous calendar year's value exists, mark 1 if 
+#     unchanged, 0 if changed.
 #   - If the previous year is missing, mark as NA.
 var_cols <- paste0("var_", years_range)
 for (yr in years_range) {
@@ -144,7 +156,7 @@ for (yr in years_range) {
 }
 
 # ---------------------------------------------------------------------------- #
-# Compute Summary Columns: first_year, last_year, present, absent                #
+# Compute Summary Columns: first_year, last_year, present, absent              #
 # ---------------------------------------------------------------------------- #
 wide <- wide %>%
   mutate(
@@ -171,11 +183,19 @@ wide <- wide %>%
 # Reorder Final Columns                                                        #
 # ---------------------------------------------------------------------------- #
 # Order the final data frame with: subfolder, description,
-# then alternating var_YEAR and match_YEAR for each year, then first_year, last_year, present, absent.
-year_cols <- unlist(lapply(years_range, function(yr) c(paste0("var_", yr), paste0("match_", yr))))
+# then alternating var_YEAR and match_YEAR for each year, then first_year, 
+# last_year, present, absent.
+year_cols <- unlist(lapply(years_range, function(yr) c(paste0("var_", yr), 
+                                                       paste0("match_", yr))))
 final_df <- wide %>%
   filter(!is.na(description)) %>%
-  select(subfolder, description, all_of(year_cols), first_year, last_year, present, absent)
+  select(subfolder, 
+         description, 
+         all_of(year_cols), 
+         first_year, 
+         last_year, 
+         present, 
+         absent)
 
 # ---------------------------------------------------------------------------- #
 # Save Final Evaluation Results to CSV Files with Numeric Prefixes             #
